@@ -1,6 +1,5 @@
 body {
     background-color: #a4a8a3;
-
     font-family: sans-serif ;
 }
 main {
@@ -9,17 +8,25 @@ main {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+h1 {
+    letter-spacing: 2px;
+    color: #110d1d;
 
 }
-nav > div {
+h2 {
+    color: #000005;
+}
+nav div {
     float: left;
     background-color: #649acc;
-    width: 230px;
+    width: 220px;
     height: 30px;
-    border: double #000005;
+    border: groove #649acc77;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
+    padding: 5px;
 }
 a {
     text-decoration: none;
@@ -34,4 +41,13 @@ article {
 }
 section {
     padding: 10px;
+}
+#first {
+    background-color:#649accb9; 
+}
+#second {
+    background-color: #649accb9; 
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
