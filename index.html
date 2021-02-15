@@ -3,27 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prosta strona</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <!-- nav>ul>li*4 -->
-    <nav>
-        <ul>
-            <li>header</li>
-            <li>o nas</li>
-            <li>kontakt</li>
-            <li>footer</li>
-        </ul>
-    </nav>
-
-  <!--  header#main+(section#o-nas>p.tekst)+section#kontakt+footer#footer  -->
-   <header id="main"></header>
-   <section id="o-nas">
-       <p class="tekst"></p>
-   </section>
-   <section id="kontakt"></section>
-   <footer id="footer"></footer>    
-   
+   <!--  main>(header>h1+(nav>(div>a)*4))+article -->
+   <main>
+       <header>
+           <h1>Prosta strona</h1>
+           <nav>
+               <div><a href="">About us</a></div>
+               <div><a href="">Skills</a></div>
+               <div><a href="">Portfolio</a></div>
+               <div><a href="">Contact</a></div>
+           </nav>
+       </header>
+       <article>
+           <!-- (section>h2{About us}+p)+(section>h2{Skills}+(div.skill*4>(h3+p)))+(section>h2{Portfolio}+(div.portfolio.item*3>img)) -->
+           <section>
+               <h2>About us</h2>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, earum? Suscipit, adipisci. 
+                   Iure blanditiis, porro quod officia facere magni quia aspernatur assumenda fugiat repellendus consequuntur. 
+                   Aspernatur at necessitatibus dolores quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Eveniet voluptatum, autem cumque quo exercitationem quidem voluptatibus aperiam non doloribus consectetur, 
+                   necessitatibus voluptate, qui optio id eaque ipsa nam repellat nisi.</p>
+           </section>
+           <section>
+               <h2>Skills</h2>
+               <div class="skill">
+                   <h3></h3>
+                   <p></p>
+               </div>
+               <div class="skill">
+                   <h3></h3>
+                   <p></p>
+               </div>
+               <div class="skill">
+                   <h3></h3>
+                   <p></p>
+               </div>
+               <div class="skill">
+                   <h3></h3>
+                   <p></p>
+               </div>
+           </section>
+           <section>
+               <h2>Portfolio</h2>
+               <div class="portfolio item"><img src="" alt=""></div>
+               <div class="portfolio item"><img src="" alt=""></div>
+               <div class="portfolio item"><img src="" alt=""></div>
+           </section>
+           <!-- section>(h2{Jan Kowalski}+address+form>(label+input)*3) -->
+           <section>
+               <h2>Contact</h2>
+               <address></address>
+               <form action="">
+                   <label for="">Imię:</label><br>
+                   <input type="text"><br>
+                   <label for="">Nazwisko:</label><br>
+                   <input type="text"><br>
+                   <label for="">Wiadomość:</label><br>
+                   <input type="text"><br>
+                   <input type="button" value="Wyślij">
+                </form>
+           </section>
+           
+       </article>
+   </main>
 
 </body>
 </html>

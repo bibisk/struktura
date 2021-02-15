@@ -1,0 +1,37 @@
+body {
+    background-color: #a4a8a3;
+
+    font-family: sans-serif ;
+}
+main {
+    color: white;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+nav > div {
+    float: left;
+    background-color: #649acc;
+    width: 230px;
+    height: 30px;
+    border: double #000005;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+a {
+    text-decoration: none;
+    color: rgb(247, 242, 242);
+}
+a:hover {
+    color: #242427;
+}
+
+article {
+    clear: both;
+}
+section {
+    padding: 10px;
+}
