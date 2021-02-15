@@ -35,7 +35,6 @@ a {
 a:hover {
     color: #242427;
 }
-
 article {
     clear: both;
 }
@@ -51,3 +50,11 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+.portfolio_item {
+   display: inline-block;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
