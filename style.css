@@ -41,6 +41,17 @@ article {
 section {
     padding: 10px;
 }
+p {
+    color: #0c0e0c;
+}
+.skill {
+    background-color: #88b2db86;
+    width: 430px;
+    height: 430px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
 #first {
     background-color:#649accb9; 
 }
